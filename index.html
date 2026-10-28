@@ -95,46 +95,41 @@
 }
 
 
-
-
-
-
-.book-gallery {
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.book-card {
-    width: 220px;
-    text-align: center;
-}
-
-.book-card img {
-    width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
-}
-
 .book-info {
     height: 140px;    /* adjust if needed */
     margin-top: 10px;
 }
 
+.book-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.book-card {
+    width: 250px;
+    text-align: center;
+}
+
+.book-card img {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
 .book-title {
     font-weight: bold;
-    color: #003366;
-    margin-bottom: 8px;
+    margin-top: 10px;
 }
 
 .book-subtitle {
     font-style: italic;
     color: #555;
-    font-size: 0.9rem;
-    margin-bottom: 8px;
+    margin-top: 5px;
 }		
-
 		
 	</style>
 </head>
@@ -183,47 +178,49 @@
 
 <h2>Books</h2>
 
-<div class="book-card">
+<div class="book-gallery">
 
-  <a href="https://www.vogelwarte.ch/en/research/population-biology/book-ipm/" target="_blank">
-    <img src="images/IPM Cover.jpg" alt="Integrated Population Models">
-  </a>
+  <div class="book-card">
+    <a href="https://www.vogelwarte.ch/en/research/population-biology/book-ipm/">
+      <img src="images/IPMbook.jpg"
+           alt="Integrated Population Models">
+    </a>
 
-  <div class="book-title">
-    Integrated Population Models
-  </div>
+    <div class="book-title">
+      Integrated Population Models
+    </div>
 
-  <p>
-    Schaub &amp; Kéry (2022)
-  </p>
+    <div class="book-subtitle">
+      Theory and ecological applications with R and JAGS
+    </div>
 
-  <p>
+    <p>Schaub &amp; Kéry (2022)</p>
+
     <a href="https://www.vogelwarte.ch/en/research/population-biology/book-ipm/">
       Book webpage
     </a>
-  </p>
-
-</div>
-
-<div class="book-card">
-
-  <a href="https://www.vogelwarte.ch/en/research/population-biology/book-bpa/" target="_blank">
-    <img src="images/BPA Cover.jpg" alt="Bayesian Population Analysis">
-  </a>
-
-  <div class="book-title">
-    Bayesian Population Analysis Using WinBUGS
   </div>
 
-  <p>
-    Kéry &amp; Schaub (2012)
-  </p>
+  <div class="book-card">
+    <a href="https://www.vogelwarte.ch/en/research/population-biology/book-bpa/">
+      <img src="images/BPAbook.jpg"
+           alt="Bayesian Population Analysis Using WinBUGS">
+    </a>
 
-  <p>
+    <div class="book-title">
+      Bayesian Population Analysis Using WinBUGS
+    </div>
+
+    <div class="book-subtitle">
+      A Hierarchical Perspective
+    </div>
+
+    <p>Kéry &amp; Schaub (2012)</p>
+
     <a href="https://www.vogelwarte.ch/en/research/population-biology/book-bpa/">
       Book webpage
     </a>
-  </p>
+  </div>
 
 </div>
 	
