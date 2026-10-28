@@ -12,32 +12,32 @@
 
     <style>
         body {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            line-height: 1.7;
-            color: #333;
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        line-height: 1.7;
+        color: #333;
         }
 
         h1 {
-            color: #003366;
+        color: #003366;
         }
 
         h2 {
-            color: #003366;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 4px;
-            margin-top: 40px;
+        color: #003366;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 4px;
+        margin-top: 40px;
         }
 
         a {
-            color: #0066cc;
-            text-decoration: none;
+        color: #0066cc;
+        text-decoration: none;
         }
 
         a:hover {
-            text-decoration: underline;
+        text-decoration: underline;
         }
          
 		.banner {
@@ -68,95 +68,88 @@
 		padding-top: 20px;
 		}
 		
+		.book-card img:hover {
+		transform: scale(1.04);
+		}
 
+		.book {
+		display: flex;
+		gap: 25px;
+		margin-bottom: 35px;
+		align-items: flex-start;
+		}
 
+		.book img {
+		width: 160px;
+		border-radius: 8px;
+		box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+		}
 
-.book-card img:hover {
-    transform: scale(1.04);
-}
+		.book-details {
+		flex: 1;
+		}
 
+		.book-info {
+		height: 140px;    /* adjust if needed */
+		margin-top: 10px;
+		}
 
+		.book-gallery {
+		display: flex;
+		justify-content: center;
+		gap: 50px;
+		flex-wrap: wrap;
+		margin-top: 20px;
+		}
 
-.book {
-    display: flex;
-    gap: 25px;
-    margin-bottom: 35px;
-    align-items: flex-start;
-}
+		.book-card {
+		width: 250px;
+		text-align: center;
+		}
 
-.book img {
-    width: 160px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
-}
+		.book-card img {
+		width: auto;
+		height: 320px;
+		border-radius: 8px;
+		box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+		}
 
-.book-details {
-    flex: 1;
-}
+		.book-title {
+		font-weight: bold;
+		margin-top: 10px;
+		}
 
+		.book-subtitle {
+		font-style: italic;
+		color: #555;
+		margin-top: 5px;
+		}		
 
-.book-info {
-    height: 140px;    /* adjust if needed */
-    margin-top: 10px;
-}
+		.interests {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+		margin-top: 15px;
+		}
 
-.book-gallery {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.book-card {
-    width: 250px;
-    text-align: center;
-}
-
-.book-card img {
-    width: auto;
-    height: 320px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
-}
-
-.book-title {
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-.book-subtitle {
-    font-style: italic;
-    color: #555;
-    margin-top: 5px;
-}		
-
-
-.interests {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 15px;
-}
-
-.interest-box {
-    background: #eef4fb;
-    color: #003366;
-    border-radius: 6px;
-    padding: 8px 14px;
-    font-size: 0.95rem;
-    font-weight: 500;
-}	
+		.interest-box {
+		background: #eef4fb;
+		color: #003366;
+		border-radius: 6px;
+		padding: 8px 14px;
+		font-size: 0.95rem;
+		font-weight: 500;
+		}	
 	</style>
 </head>
 
 <body>
 
-<img src="images/Dehesa.jpg"
+	<img src="images/Dehesa.jpg"
      alt="Beautiful dehesa in central Spain"
      style="width:100%; border-radius:10px;">
           
-<div class="profile">
+	<div class="profile">
 
     <img src="images/MSchaub.jpg"
          alt="Michael Schaub"
@@ -171,77 +164,76 @@
         </p>
     </div>
 
-</div>
+	</div>
 
-<h2>Profiles</h2>
-<ul>
-    <li><a href="https://scholar.google.com/citations?user=84qImyQAAAAJ&hl=en">Google Scholar</a></li>
-    <li><a href="https://orcid.org/0000-0003-2745-0557">ORCID</a></li>
-    <li><a href="https://www.researchgate.net/profile/Michael-Schaub-3">ResearchGate</a></li>
-    <li><a href="https://github.com/mschaub67">GitHub</a></li>
-    <li><a href="https://www.vogelwarte.ch/en/team/michael-schaub/">Vogelwarte</a></li>
-</ul>
+	<h2>Profiles</h2>
+	<ul>
+		<li><a href="https://scholar.google.com/citations?user=84qImyQAAAAJ&hl=en">Google Scholar</a></li>
+		<li><a href="https://orcid.org/0000-0003-2745-0557">ORCID</a></li>
+		<li><a href="https://www.researchgate.net/profile/Michael-Schaub-3">ResearchGate</a></li>
+		<li><a href="https://github.com/mschaub67">GitHub</a></li>
+		<li><a href="https://www.vogelwarte.ch/en/team/michael-schaub/">Vogelwarte</a></li>
+	</ul>
 
-<h2>Research Interests</h2>
-<div class="interests">
-    <span class="interest-box">Population ecology</span>
-    <span class="interest-box">Integrated population models</span>
-    <span class="interest-box">Capture-recapture models</span>
-    <span class="interest-box">Bayesian hierarchical models</span>
-    <span class="interest-box">Demographic monitoring</span>
-    <span class="interest-box">Birds</span>
-</div>
+	<h2>Research Interests</h2>
+	<div class="interests">
+		<span class="interest-box">Population ecology</span>
+		<span class="interest-box">Integrated population models</span>
+		<span class="interest-box">Capture-recapture models</span>
+		<span class="interest-box">Bayesian hierarchical models</span>
+		<span class="interest-box">Demographic monitoring</span>
+		<span class="interest-box">Birds</span>
+	</div>
 
-<h2>Books</h2>
+	<h2>Books</h2>
 
-<div class="book-gallery">
-
-  <div class="book-card">
-    <a href="https://www.vogelwarte.ch/en/research/population-biology/book-ipm/">
-      <img src="images/IPM Cover.jpg"
+	<div class="book-gallery">
+	<div class="book-card">
+		<a href="https://www.vogelwarte.ch/en/research/population-biology/book-ipm/">
+		<img src="images/IPM Cover.jpg"
            alt="Integrated Population Models">
-    </a>
+		</a>
 
-    <div class="book-title">
-      Integrated Population Models
-    </div>
+		<div class="book-title">
+		Integrated Population Models
+		</div>
 
-    <div class="book-subtitle">
-      Theory and ecological applications with R and JAGS
-    </div>
+		<div class="book-subtitle">
+		Theory and ecological applications with R and JAGS
+		</div>
 
-    <p>Schaub &amp; Kéry (2022)</p>
+		<p>Schaub &amp; Kéry (2022)</p>
 
-    <a href="https://www.vogelwarte.ch/en/research/population-biology/book-ipm/">
-      Book webpage
-    </a>
-  </div>
+		<a href="https://www.vogelwarte.ch/en/research/population-biology/book-ipm/">
+		Book webpage
+		</a>
+	</div>
 
-  <div class="book-card">
-    <a href="https://www.vogelwarte.ch/en/research/population-biology/book-bpa/">
-      <img src="images/BPA Cover.jpg"
+	<div class="book-card">
+		<a href="https://www.vogelwarte.ch/en/research/population-biology/book-bpa/">
+		<img src="images/BPA Cover.jpg"
            alt="Bayesian Population Analysis Using WinBUGS">
-    </a>
+		</a>
 
-    <div class="book-title">
-      Bayesian Population Analysis Using WinBUGS
-    </div>
+		<div class="book-title">
+		Bayesian Population Analysis Using WinBUGS
+		</div>
 
-    <div class="book-subtitle">
-      A Hierarchical Perspective
-    </div>
+		<div class="book-subtitle">
+		A Hierarchical Perspective
+		</div>
 
-    <p>Kéry &amp; Schaub (2012)</p>
+		<p>Kéry &amp; Schaub (2012)</p>
 
-    <a href="https://www.vogelwarte.ch/en/research/population-biology/book-bpa/">
-      Book webpage
-    </a>
-  </div>
+		<a href="https://www.vogelwarte.ch/en/research/population-biology/book-bpa/">
+		Book webpage
+		</a>
+	</div>
 
-</div>
+	</div>
 	
-<h2>Selected Publications</h2>
-<ul>    
+	<h2>Selected Publications</h2>
+	<ul>    
     <li>
     Schaub, M. et al. (2026).
     Estimating seasonal survival of migratory birds using continuous-time capture–recapture models.
@@ -275,47 +267,45 @@
     <i>Ecology and Evolution</i>.
     <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.71517">DOI</a>
     </li>
-</ul>
+	</ul>
 
-<h2>Publications</h2>
-<p>
-My full publication list is available on
-<a href="https://scholar.google.com/citations?user=84qImyQAAAAJ&hl=en">
-Google Scholar</a>.</p>
+	<h2>Publications</h2>
+	<p>
+	My full publication list is available on
+	<a href="https://scholar.google.com/citations?user=84qImyQAAAAJ&hl=en">
+	Google Scholar</a>.</p>
 
-<h2>Code and Tutorials</h2>
-<p>
-Code repositories, tutorials, and examples for integrated population models,
-capture-recapture analyses, Bayesian modeling, and NIMBLE.  ...under construction...
-</p>
+	<h2>Code and Tutorials</h2>
+	<p>
+	Code repositories, tutorials, and examples for integrated population models,
+	capture-recapture analyses, Bayesian modeling, and NIMBLE.  ...under construction...
+	</p>
 
-<h2>Hierarchical Modeling in Ecology</h2>
-<p>
-Quantitative research in ecology relies on hierarchical modelling. <a href="https://eesc.usgs.gov/mbr/pubanalysis/roylebook/index.html">This page</a> contains useful books on this topic, as well as links to relevant software, code and R packages.
-</p>
+	<h2>Hierarchical Modeling in Ecology</h2>
+	<p>
+	Quantitative research in ecology relies on hierarchical modelling. <a href="https://eesc.usgs.gov/mbr/pubanalysis/roylebook/index.html">This page</a> contains useful books on this topic, as well as links to relevant software, code and R packages.
+	</p>
 
-
-<h2>Workshops</h2>
-<p>
-Together with Marc Kéry and other colleagues, I regularly organise workshops on <b>Bayesian Population Analyses (BPA)</b>, as well as more specialised ones on <b>Integrated Population Models (IPM)</b>. Please contact me if you are interested.
-</p>
-<p>See a list of past <a href="Pastworkshops.html">workshops</a>.</p>
+	<h2>Workshops</h2>
+	<p>
+	Together with Marc Kéry and other colleagues, I regularly organise workshops on <b>Bayesian Population Analyses (BPA)</b>, as well as more specialised ones on <b>Integrated Population Models (IPM)</b>. Please contact me if you are interested.
+	</p>
+	<p>See a list of past <a href="Pastworkshops.html">workshops</a>.</p>
     
-<h2>Contact</h2>
-<p>
-<a href="mailto:michael.schaub@vogelwarte.ch">
-michael.schaub@vogelwarte.ch
-</a>
-</p>
+	<h2>Contact</h2>
+	<p>
+	<a href="mailto:michael.schaub@vogelwarte.ch">
+	michael.schaub@vogelwarte.ch
+	</a>
+	</p>
 
-<footer>
-<hr>
-<p>
-Michael Schaub · Swiss Ornithological Institute ·
-Last updated October 2026
-</p>
-</footer>
-
+	<footer>
+	<hr>
+	<p>
+	Michael Schaub · Swiss Ornithological Institute ·
+	Last updated October 2026
+	</p>
+	</footer>
 
 </body>
 </html>
