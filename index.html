@@ -1,8 +1,5 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
-
 
 <head>
    <meta name="description"
@@ -14,45 +11,24 @@
     <title>Michael Schaub</title>
 
     <style>
---main-blue: #003366;
-body {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 0 40px;
-    font-family: Arial, sans-serif;
-    line-height: 1.7;
-    color: #333;
-}
+        body {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+            color: #333;
+        }
 
-.banner {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 12px;
-}
-
-h2 {
-    margin-top: 60px;
-    margin-bottom: 20px;
-}
-.book-gallery {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.book-gallery img {
-    height: 220px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    transition: transform 0.2s;
-}
-
-.book-gallery img:hover {
-    transform: scale(1.05);
-}
-       
         h1 {
             color: #003366;
+        }
+
+        h2 {
+            color: #003366;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 4px;
+            margin-top: 40px;
         }
 
         a {
@@ -64,88 +40,42 @@ h2 {
             text-decoration: underline;
         }
          
+		.banner {
+		width: 100%;
+		border-radius: 12px;
+		box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+		margin-bottom: 30px;
+		}
 
-.profile {
-    display:flex;
-    align-items:center;
-    gap:40px;
-    margin:40px 0;
-}
-  .subtitle {
-       font-size: 1.1em;
-       color: #666;
-       }
-       
-.photo {
-    width: 180px;
-    border-radius: 12px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
-}
-.links a{
-    display:inline-block;
-    padding:8px 14px;
-    margin:4px;
-    background:#f3f3f3;
-    border-radius:6px;
-}
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 35px;
-    padding: 15px 0;
-}
+		.profile {
+		display: flex;
+		align-items: center;
+		gap: 30px;
+		margin-bottom: 30px;
+		}
 
-nav a {
-    text-decoration: none;
-    font-weight: 500;
-}
-nav {
-    position: sticky;
-    top: 0;
-    background: white;
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
-    gap: 35px;
-    padding: 15px 0;
-    border-bottom: 1px solid #ddd;
-}
-.books {
-    background:#f8f8f8;
-    padding:15px;
-    border-left:4px solid #003366;
-    margin-bottom:15px;
-}
-.tag{
-  display:inline-block;
-  background:#e8f1f8;
-  padding:6px 10px;
-  border-radius:20px;
-  margin:4px;
-}
-footer {
-    font-size: 0.75rem;
-    color: #666;
-    text-align: center;
-    margin-top: 40px;
-    padding-top: 20px;
-}
+		.photo {
+		width: 220px;
+		border-radius: 12px;
+		box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+		}
+
+		footer {
+		font-size: 0.75rem;
+		color: #666;
+		text-align: center;
+		margin-top: 40px;
+		padding-top: 20px;
+		}
+
     </style>
 </head>
 
 <body>
 
-<nav>
-<a href="#research">Research</a>
-<a href="#books">Books</a>
-<a href="#publications">Publications</a>
-<a href="#workshops">Workshops</a>
-<a href="#contact">Contact</a>
-</nav>
-   
 <img src="images/Dehesa.jpg"
-     class="banner"
-     alt="Dehesa landscape">
+     alt="Beautiful dehesa in central Spain"
+     style="width:100%; border-radius:10px;">
           
 <div class="profile">
 
@@ -154,54 +84,38 @@ footer {
          class="photo">
 
     <div>
-       <h1>Michael Schaub</h1>
-       <p class="subtitle">
-       Population Ecologist · <a href="https://www.vogelwarte.ch/en/">Swiss Ornithological Institute</a>
-       </p>
-       
+        <h1>Michael Schaub</h1>
+
         <p>
-        I am a population ecologist at the Swiss Ornithological
-Institute. My research combines demographic monitoring,
-capture-recapture analysis and integrated population models
-to understand population dynamics and support wildlife
-conservation.
+        I am a population ecologist at the <a href="https://www.vogelwarte.ch/en/">Swiss Ornithological Institute</a>.<br>
+        I am a population ecologist at the Swiss Ornithological Institute. My research combines demographic monitoring, capture-recapture analysis and integrated population models to understand population dynamics and support wildlife conservation.
         </p>
     </div>
 
 </div>
 
 <h2>Profiles</h2>
-<p class="links">
-<a href="https://scholar.google.com/citations?user=84qImyQAAAAJ&hl=en">Google Scholar</a>
-<a href="https://orcid.org/0000-0003-2745-0557">ORCID</a>
-<a href="https://github.com/mschaub67">GitHub</a>
-<a href="https://www.researchgate.net/profile/Michael-Schaub-3">ResearchGate</a>
-<a href="https://www.vogelwarte.ch/en/team/michael-schaub/">Vogelwarte</a>
-</p>
-   
-   
-
+<ul>
+    <li><a href="https://scholar.google.com/citations?user=84qImyQAAAAJ&hl=en">Google Scholar</a></li>
+    <li><a href="https://orcid.org/0000-0003-2745-0557">ORCID</a></li>
+    <li><a href="https://www.researchgate.net/profile/Michael-Schaub-3">ResearchGate</a></li>
+    <li><a href="https://github.com/mschaub67">GitHub</a></li>
+    <li><a href="https://www.vogelwarte.ch/en/team/michael-schaub/">Vogelwarte</a></li>
+</ul>
 
 <h2>Research Interests</h2>
-<span class="tag">Population ecology</span>
-<span class="tag">Integrated population models</span>
-<span class="tag">Capture-recapture</span>
-<span class="tag">Bayesian statistics</span>
-<span class="tag">Demographic monitoring</span>
-<span class="tag">Birds</span>   
-
-
+<ul>
+    <li>Population ecology</li>
+    <li>Integrated population models</li>
+    <li>Capture-recapture models</li>
+    <li>Bayesian hierarchical models</li>
+    <li>Demographic monitoring</li>
+    <li>Birds</li>
+</ul>
 
  <h2>Books</h2>
 <ul>    
-   <div class="books">
-<h3>Integrated Population Models</h3>
-<p>
-Schaub & Kéry (2022)
-</p>
-</div>
-
-   <li>
+    <li>
     Schaub, M. & Kéry, M. (2022).
     Integrated population models.
     <i>Theory and ecological applications with R and JAGS</i>.
@@ -215,21 +129,7 @@ Schaub & Kéry (2022)
     <a href="https://www.vogelwarte.ch/en/research/population-biology/book-bpa/">Book webpage</a>
     </li>
 </ul>
-
-<section id="books">
-  <h2>Books</h2>
-
-  <div class="book-gallery">
-    <a href="https://publisher-link.com">
-      <img src="images/IPM Cover.jpg" alt="Integrated Population Models">
-    </a>
-
-    <a href="https://publisher-link.com">
-      <img src="images/book2.jpg" alt="Book title">
-    </a>
-  </div>
-</section>
-   
+    
 <h2>Selected Publications</h2>
 <ul>    
     <li>
@@ -305,6 +205,7 @@ Michael Schaub · Swiss Ornithological Institute ·
 Last updated October 2026
 </p>
 </footer>
+
 
 </body>
 </html>
