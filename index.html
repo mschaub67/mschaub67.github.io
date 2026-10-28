@@ -2,6 +2,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<nav>
+<a href="#research">Research</a>
+<a href="#books">Books</a>
+<a href="#publications">Publications</a>
+<a href="#workshops">Workshops</a>
+<a href="#contact">Contact</a>
+</nav>
+
 <head>
    <meta name="description"
       content="Personal website of Michael Schaub. Research in population ecology, wildlife conservation and integrated population models (IPM).">
@@ -13,7 +21,7 @@
 
     <style>
         body {
-            max-width: 900px;
+            max-width: 1050px;
             margin: 40px auto;
             padding: 20px;
             font-family: Arial, sans-serif;
@@ -64,6 +72,27 @@
     border-radius: 12px;
     box-shadow: 0 3px 8px rgba(0,0,0,0.25);
 }
+.links a{
+    display:inline-block;
+    padding:8px 14px;
+    margin:4px;
+    background:#f3f3f3;
+    border-radius:6px;
+}
+
+.book {
+    background:#f8f8f8;
+    padding:15px;
+    border-left:4px solid #003366;
+    margin-bottom:15px;
+}
+.tag{
+  display:inline-block;
+  background:#e8f1f8;
+  padding:6px 10px;
+  border-radius:20px;
+  margin:4px;
+}
     </style>
 </head>
 
@@ -104,7 +133,12 @@
 </ul>
 
 <h2>Research Interests</h2>
-<ul>
+<span class="tag">Population ecology</span>
+<span class="tag">Integrated population models</span>
+<span class="tag">Capture-recapture</span>
+<span class="tag">Bayesian statistics</span>
+   
+   <ul>
     <li>Population ecology</li>
     <li>Integrated population models</li>
     <li>Capture-recapture models</li>
@@ -204,6 +238,14 @@ Together with Marc Kéry and other colleagues, I regularly organise workshops on
 michael.schaub@vogelwarte.ch
 </a>
 </p>
+
+<footer>
+<hr>
+<p>
+Michael Schaub · Swiss Ornithological Institute ·
+Last updated October 2026
+</p>
+</footer>
 
 </body>
 </html>
