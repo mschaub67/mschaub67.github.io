@@ -23,7 +23,22 @@
             line-height: 1.7;
             color: #333;
         }
+.book-gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
+.book-gallery img {
+    height: 220px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+.book-gallery img:hover {
+    transform: scale(1.05);
+}
+       
         h1 {
             color: #003366;
         }
@@ -201,7 +216,21 @@ Schaub & Kéry (2022)
     <a href="https://www.vogelwarte.ch/en/research/population-biology/book-bpa/">Book webpage</a>
     </li>
 </ul>
-    
+
+<section id="books">
+  <h2>Books</h2>
+
+  <div class="book-gallery">
+    <a href="https://publisher-link.com">
+      <img src="images/IPM Cover.jpg" alt="Integrated Population Models">
+    </a>
+
+    <a href="https://publisher-link.com">
+      <img src="images/book2.jpg" alt="Book title">
+    </a>
+  </div>
+</section>
+   
 <h2>Selected Publications</h2>
 <ul>    
     <li>
