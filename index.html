@@ -70,17 +70,36 @@
 		margin-bottom: 30px;
 		}
 
-       .profiles{
-       display:flex;
-       flex-wrap:wrap;
-       gap:10px;
-       }
-
       .profiles a{
        background:#eef4fb;
        padding:8px 14px;
        border-radius:6px;
        }
+
+   .profiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+    }
+
+   .profile-box {
+    background: #eef4fb;
+    color: #003366;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.2s;
+    }
+
+      .profile-box:hover {
+      background: #dce8f7;
+      text-decoration: none;
+     }
+
+
 		
 		.photo {
 		width: 260px;
@@ -153,6 +172,22 @@
 		margin-top: 5px;
 		}		
 
+
+.interest-box {
+    background: #eef4fb;
+    color: #003366;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.interest-box:hover {
+    background: #dce8f7;
+}
+		
 		.interests {
 		display: flex;
 		flex-wrap: wrap;
@@ -160,16 +195,7 @@
 		margin-top: 15px;
 		}
 
-		.interest-box {
-		background: #eef4fb;
-		color: #003366;
-		border-radius: 8px;
-		padding: 10px 16px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.08);
-		font-size: 0.95rem;
-		font-weight: 500;
-		}	
-		
+
 		.pub-card{
         background:white;
         padding:16px;
@@ -234,6 +260,15 @@
 	</div>
 
 	<h2>Profiles</h2>
+	<div class="interests">
+    <a class="https://scholar.google.com/citations?user=84qImyQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+    <a class="https://orcid.org/0000-0003-2745-0557" target="_blank" rel="noopener noreferrer">ORCID</a>
+    <a class="https://github.com/mschaub67" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a class="https://www.researchgate.net/profile/Michael-Schaub-3" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+    <a class="https://www.vogelwarte.ch/en/team/michael-schaub" target="_blank" rel="noopener noreferrer">Vogelwarte</a>
+</div>
+	
+	
 	<div class="profiles">
        <a href="https://scholar.google.com/citations?user=84qImyQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
        <a href="https://orcid.org/0000-0003-2745-0557" target="_blank" rel="noopener noreferrer">ORCID</a>
