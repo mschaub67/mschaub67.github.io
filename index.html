@@ -172,10 +172,11 @@
 		
 		.pub-card{
         background:white;
-        padding:12px;
-        margin-bottom:12px;
+        padding:16px;
+        margin-bottom:14px;
         border-left:4px solid #003366;
         line-height: 1.4;
+		border-radius:8px;
 		}
 
 		.interest-box:hover,
@@ -188,8 +189,23 @@
 		.pub-card:hover{
          box-shadow:0 3px 10px rgba(0,0,0,0.1);
         }
-        
-	
+
+		.pub-card strong{
+        color:#003366;
+        }
+
+        @media (max-width: 700px){
+       .profile{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        }
+
+        .photo{
+        width:220px;
+        }
+        }
+		
 	</style>
 </head>
 
