@@ -83,21 +83,7 @@
     margin-top: 15px;
     }
 
-   .profile-box {
-    background: #eef4fb;
-    color: #003366;
-    border-radius: 6px;
-    padding: 8px 14px;
-    font-size: 0.95rem;
-    font-weight: 500;
-    text-decoration: none;
-    transition: background 0.2s;
-    }
-
-      .profile-box:hover {
-      background: #dce8f7;
-      text-decoration: none;
-     }
+  
 
 
 		
@@ -173,20 +159,22 @@
 		}		
 
 
-.interest-box {
+.tag {
     background: #eef4fb;
     color: #003366;
     border-radius: 6px;
     padding: 8px 14px;
     font-size: 0.95rem;
     font-weight: 500;
-    text-decoration: none;
     display: inline-block;
-    }
+    text-decoration: none;
+    transition: 0.2s;
+}
 
-     .interest-box:hover {
-      background: #dce8f7;
-      }
+.tag:hover {
+    background: #dce8f7;
+    transform: translateY(-2px);
+}
 		
 		.interests {
 		display: flex;
@@ -260,7 +248,7 @@
 
 	<h2>Profiles</h2>
 	<div class="interests">
-    <a class="https://scholar.google.com/citations?user=84qImyQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+    <a class="tag" href="https://scholar.google.com/citations?user=84qImyQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
     <a class="https://orcid.org/0000-0003-2745-0557" target="_blank" rel="noopener noreferrer">ORCID</a>
     <a class="https://github.com/mschaub67" target="_blank" rel="noopener noreferrer">GitHub</a>
     <a class="https://www.researchgate.net/profile/Michael-Schaub-3" target="_blank" rel="noopener noreferrer">ResearchGate</a>
@@ -269,12 +257,12 @@
 	
 		<h2>Research Interests</h2>
 	<div class="interests">
-		<span class="interest-box">Population ecology</span>
-		<span class="interest-box">Integrated population models</span>
-		<span class="interest-box">Capture-recapture models</span>
-		<span class="interest-box">Bayesian hierarchical models</span>
-		<span class="interest-box">Demographic monitoring</span>
-		<span class="interest-box">Birds</span>
+		<span class="tag">Population ecology</span>
+		<span class="tag">Integrated population models</span>
+		<span class="tag">Capture-recapture models</span>
+		<span class="tag">Bayesian hierarchical models</span>
+		<span class="tag">Demographic monitoring</span>
+		<span class="tag">Birds</span>
 	</div>
 
 	
